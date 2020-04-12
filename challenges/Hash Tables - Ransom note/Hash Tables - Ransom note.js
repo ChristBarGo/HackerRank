@@ -23,7 +23,7 @@ function readLine() {
 }
 
 /* 
-After checking preconditions specified in the exercise statement they are applied to 'magazine' and 'note' parameters, each item of 'note' is searched in 'magazine taking into account they are case-sensitive'. In case a 'note' word is found in 'magazine', it will be removed in this last one. If not, as Harold did not find a word for his ransom note, the function automatically will print "No". The function just will print "Yes" when each word of 'note' is exactly found in 'magazine' variable
+After checking preconditions specified in the exercise statement they are applied to 'magazine' and 'note' parameters, each item of 'note' is searched in 'magazine taking into account they are case-sensitive'. In case a 'note' word is found in 'magazine', it will be removed in this last one. If not, as Harold did not find a word for his ransom note, the function automatically will print "No". The function just will print "Yes" when each word of 'note' is exactly found in 'magazine' variable.
 */
 function checkMagazine(magazine, note) {
     const POSITIVE_RESULT = "Yes";
